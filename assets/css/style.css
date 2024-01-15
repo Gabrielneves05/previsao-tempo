@@ -43,6 +43,7 @@ body {
     border-radius: 50px;
     font-size: 15px;
     background-color: #7c7c7c2b;
+    color: #fdfdfd;
 }
 
 .form button {
@@ -58,7 +59,7 @@ body {
 /* Clima */
 
 #weather-data {
-    border-top: 1px solid #fdfdfd;
+    border-top: 1px solid #7c7c7c2b;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     text-align: center;
@@ -86,6 +87,11 @@ body {
     margin: .6rem;
 }
 
+#description {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 #details-container {
     display: flex;
     justify-content: center;
@@ -93,7 +99,7 @@ body {
 }
 
 #details-container #humidity {
-    border-right: 1px solid #fdfdfd;
+    border-right: 1px solid #7c7c7c2b;
     margin: .6rem;
     padding: .6rem;
 }
